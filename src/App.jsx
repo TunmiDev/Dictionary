@@ -4,7 +4,7 @@ import Dictionary from "../src/Dictionary";
 const App = () => {
   return (
     <div>
-      <Dictionary />
+      <Dictionary defaultKeyword="sunset" />
     </div>
   );
 };
