@@ -1,6 +1,13 @@
+.Dictionary {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+}
+
 .Dictionary h1 {
-  font-size: 24px;
-  color: #333;
+  font-size: 32px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -16,6 +23,14 @@
   width: 100%;
   border-radius: 6px;
   padding: 6px 10px;
+  font-size: 1rem;
   border: 1px solid #ddd;
   color: #333;
+  border-radius: 8px;
+  outline: none;
+}
+
+.Dictionary input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
 }
