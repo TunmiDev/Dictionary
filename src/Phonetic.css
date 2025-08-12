@@ -1,26 +1,23 @@
 .phonetic {
-  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.phonetic a {
-  border: 1px solid #ddd;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  transition: all 150ms ease-in-out;
-  font-size: 12px;
-  font-weight: bold;
-  margin-right: 10px;
+.listen-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0077ff;
+  display: flex;
+  align-items: center;
+  padding: 4px;
 }
 
-.phonetic a:hover {
-  background: #333;
-  color: white;
+.listen-button:hover {
+  color: #0056b3;
 }
 
-.phonetic .text {
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
-  margin-left: 10px;
+.text {
+  font-size: 1rem;
 }
