@@ -60,6 +60,11 @@ export default function Dictionary(props) {
             <img key={index} src={photo.src.landscape} alt={keyword} />
           ))}
         </section>
+        <footer>
+          This Project was coded by TunmiDev and it is open source on{" "}
+          <a href="https://github.com/TunmiDev/Dictionary">Github</a> and it's
+          hosted on <a href="https://dictionary-fawn-six.vercel.app/">Vercel</a>
+        </footer>
       </div>
     );
   } else {
